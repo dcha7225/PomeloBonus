@@ -1,0 +1,64 @@
+availableCredit = 1000
+
+txn_authed
+{
+  "time": 10,
+  "txnID": 1,
+  "amount": 100
+
+}
+
+txn_authed
+{
+  "time": 12,
+  "txnID": 2,
+  "amount": 150
+}
+
+
+txn_settled
+{
+  "time": 13,
+  "txnID": 2,
+  "amount": 100
+}
+
+txn_authed
+{
+  "time": 15,
+  "txnID": 3,
+  "amount": 500
+}
+
+txn_clear
+{
+  "time": 15,
+  "txnID": 3,
+}
+txn_authed
+{
+  "time": 9,
+  "txnID": 4,
+  "amount": 155
+}
+
+txn_authed
+{
+  "time": 4,
+  "txnID": 5,
+  "amount": 255
+}
+
+
+txn_settled
+{
+  "time": 4,
+  "txnID": 5,
+  "amount": 150
+}
+
+
+
+
+
+summarize
